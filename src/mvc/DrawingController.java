@@ -16,6 +16,7 @@ public class DrawingController {
 	public void mouseClicked(MouseEvent e) {
 		Point p = new Point(e.getX(), e.getY(), Color.BLUE);
 		model.add(p);
+		System.out.println(p);
 		frame.repaint();
 	}
 
